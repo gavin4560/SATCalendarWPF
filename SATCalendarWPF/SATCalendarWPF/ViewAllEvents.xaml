@@ -1,0 +1,29 @@
+﻿<Window x:Class="SATCalendarWPF.ViewAllEvents"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SATCalendarWPF"
+        mc:Ignorable="d"
+        Title="View All Events" Height="413" Width="529" ResizeMode="NoResize">
+    <Window.Resources>
+        <XmlDataProvider XPath="appointments" x:Key="appointmentData" />
+    </Window.Resources>
+    <Grid>
+        <DataGrid x:Name="dataGrid1" DataContext="{StaticResource appointmentData}"
+ AutoGenerateColumns="False" Margin="10,30,10,30">
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding XPath=@appointmentName}"
+                                    Header="Appointment Name" Width="125"/>
+                <DataGridTextColumn Binding="{Binding XPath=@appointmentDate}"
+                                    Header="Date" Width="100"/>
+                <DataGridTextColumn Binding="{Binding XPath=@appointmentStartTime}"
+                                    Header="Start Time" Width="75"/>
+                <DataGridTextColumn Binding="{Binding XPath=@appointmentEndTime}"
+                                    Header="End Time" Width="75"/>
+                <DataGridTextColumn Binding="{Binding XPath=@appointmentLocation}"
+                                    Header="Location" Width="120"/>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Window>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<appointments>
+  <appointment>
+    <appointmentName>Finish marking Geography SACs</appointmentName>
+    <appointmentDate>13/03/2020 4:00PM</appointmentDate>
+  </appointment>
+  <appointment>
+    <appointmentName>Teacher's meeting</appointmentName>
+    <appointmentDate>15/03/2020 2:30PM</appointmentDate>
+  </appointment>
+  <appointment>
+    <appointmentName>Doctor's appointment</appointmentName>
+    <appointmentDate>16/03/2020 4:30PM</appointmentDate>
+  </appointment>
+</appointments>

@@ -1,0 +1,87 @@
+﻿<Page x:Class="SATCalendarWPF.LoginWindow"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:SATCalendarWPF"
+      mc:Ignorable="d" 
+      d:DesignHeight="750" d:DesignWidth="1200"
+      Title="LoginWindow">
+
+    <Grid>
+
+        <StackPanel Orientation="Vertical" VerticalAlignment="Center"/>
+        <Label 
+            Content="Welcome" 
+            HorizontalAlignment="Left" 
+            Margin="55,66,0,0" 
+            VerticalAlignment="Top" 
+            FontFamily="Segoe UI Light" 
+            FontSize="72" 
+            Foreground="White"
+        />
+        <Label
+            Content="Username" 
+            HorizontalAlignment="Left" 
+            Margin="533,267,0,0" 
+            VerticalAlignment="Top" 
+            Foreground="White" 
+            FontFamily="Segoe UI Light" 
+            FontSize="24"
+        />
+        <Label 
+            Content="Password" 
+            HorizontalAlignment="Left" 
+            Margin="532,360,0,0" 
+            VerticalAlignment="Top" 
+            Foreground="White" 
+            FontFamily="Segoe UI Light" 
+            FontSize="24"
+        />
+        <Button 
+            Name="LogInButton" 
+            Content="Login" 
+            HorizontalAlignment="Left" 
+            Margin="727,468,0,0" 
+            VerticalAlignment="Top" 
+            Width="103" 
+            Click="btnLogIn_Click" 
+            Height="36" 
+            Foreground="White" 
+            Background="Transparent" 
+            FontSize="16"
+        />
+        
+        <TextBox
+            x:Name="UsernameTextBox" 
+            HorizontalAlignment="Left" 
+            Height="35" 
+            Margin="541,305,0,0" 
+            TextWrapping="Wrap" 
+            Text="" 
+            VerticalAlignment="Top" 
+            Width="291" 
+            FontSize="22" 
+            Background="Transparent" 
+            Foreground="White" 
+            CaretBrush="White" KeyDown="UsernameTextBox_KeyDown"
+            
+        />
+        <PasswordBox 
+            x:Name="PasswordBox" 
+            HorizontalAlignment="Left" 
+            Margin="539,399,0,0" 
+            VerticalAlignment="Top" 
+            Width="291" Height="35" 
+            Background="Transparent" 
+            FontSize="22" 
+            Foreground="White" 
+            CaretBrush="White" KeyDown="PasswordBox_KeyDown"
+        />
+        <Image 
+            Margin="266,252,678,242" 
+            Source="user.jpg" 
+            Stretch="Fill"
+        />
+    </Grid>
+</Page>

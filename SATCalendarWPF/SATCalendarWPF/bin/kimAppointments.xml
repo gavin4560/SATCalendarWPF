@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<appointments>
+  <appointment>
+    <appointmentName>Finish marking Geography SACs</appointmentName>
+    <appointmentDate>13/03/2020</appointmentDate>
+    <appointmentStartTime>2:30PM</appointmentStartTime>
+    <appointmentEndTime>4:30PM</appointmentEndTime>
+    <appointmentLocation>Test</appointmentLocation>
+  </appointment>
+  <appointment>
+    <appointmentName>Teacher's meeting</appointmentName>
+    <appointmentDate>15/03/2020</appointmentDate>
+    <appointmentStartTime>2:30PM</appointmentStartTime>
+    <appointmentEndTime>4:30PM</appointmentEndTime>
+    <appointmentLocation>Test</appointmentLocation>
+  </appointment>
+  <appointment>
+    <appointmentName>Doctor's appointment</appointmentName>
+    <appointmentDate>16/03/2020</appointmentDate>
+    <appointmentStartTime>2:30PM</appointmentStartTime>
+    <appointmentEndTime>4:30PM</appointmentEndTime>
+    <appointmentLocation>Test</appointmentLocation>
+  </appointment>
+  <appointment>
+    <appointmentName>Bro</appointmentName>
+    <appointmentDate>
+    </appointmentDate>
+    <appointmentStartTime>23:53</appointmentStartTime>
+    <appointmentEndTime>23:53</appointmentEndTime>
+    <appointmentLocation>Bro</appointmentLocation>
+  </appointment>
+  <appointment>
+    <appointmentName>Bro</appointmentName>
+    <appointmentDate>
+    </appointmentDate>
+    <appointmentStartTime>Bro</appointmentStartTime>
+    <appointmentEndTime>Bro</appointmentEndTime>
+    <appointmentLocation>Bro</appointmentLocation>
+  </appointment>
+</appointments>

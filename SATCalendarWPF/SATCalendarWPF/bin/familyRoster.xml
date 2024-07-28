@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rosters>
+	<roster>
+		<childName>Corey</childName>
+		<activity>Part-time work</activity>
+	</roster>
+	<roster>
+		<childName>Angus</childName>
+		<activity>Footy training</activity>
+	</roster>
+	<roster>
+		<childName>Eden</childName>
+		<activity>Chores</activity>
+	</roster>
+</rosters>

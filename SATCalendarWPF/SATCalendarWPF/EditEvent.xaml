@@ -1,0 +1,25 @@
+﻿<Window x:Class="SATCalendarWPF.EditEvent"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SATCalendarWPF"
+        mc:Ignorable="d"
+        Title="Edit Event" Height="256" Width="321.5" ResizeMode="NoResize">
+    <Grid Margin="0,0,4,0">
+        <Label Content="Appointment Name:" HorizontalAlignment="Left" Margin="6,6,0,0" VerticalAlignment="Top"/>
+        <Label Content="Date:" HorizontalAlignment="Left" Margin="160,6,0,0" VerticalAlignment="Top"/>
+        <DatePicker x:Name="dtpDatePicker" HorizontalAlignment="Left" Margin="164,31,0,0" VerticalAlignment="Top" Width="135"/>
+        <Label Content="Start time:" HorizontalAlignment="Left" Margin="6,82,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtStartTime" HorizontalAlignment="Left" Height="23" Margin="10,108,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="135"/>
+        <Label Content="End time:" HorizontalAlignment="Left" Margin="164,82,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtEndTime" HorizontalAlignment="Left" Height="23" Margin="164,108,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="135"/>
+        <Label Content="Location:" HorizontalAlignment="Left" Margin="6,156,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtLocation" HorizontalAlignment="Left" Height="23" Margin="10,182,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="135"/>
+        <Button x:Name="btnEditEvent" Content="Edit Event" HorizontalAlignment="Left" Margin="164,156,0,0" VerticalAlignment="Top" Width="132" Height="26" Click="btnEditEvent_Click"/>
+        <TextBox x:Name="txtAppointmentName" HorizontalAlignment="Left" Height="50" Margin="10,32,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="135"/>
+        <Button x:Name="btnDeleteEvent" Content="Delete Event" HorizontalAlignment="Left" Margin="164,186,0,0" VerticalAlignment="Top" Width="132" Height="26" Click="btnDeleteEvent_Click"/>
+        <CheckBox x:Name="chkAllDay" Content="All day" HorizontalAlignment="Left" Margin="10,136,0,0" VerticalAlignment="Top" Checked="chkAllDay_Checked" Unchecked="chkAllDay_Unchecked"/>
+
+    </Grid>
+</Window>

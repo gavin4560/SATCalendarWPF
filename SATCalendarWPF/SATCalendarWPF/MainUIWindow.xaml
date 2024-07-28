@@ -1,0 +1,46 @@
+﻿    <Page x:Class="SATCalendarWPF.MainUIWindow"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:SATCalendarWPF"
+      mc:Ignorable="d" 
+      d:DesignHeight="750" d:DesignWidth="1200"
+      Title="MainUIWindow"
+      Loaded="MainUIWindow_Loaded">
+
+    <Grid>
+        <Label 
+            x:Name="WelcomeLabel"
+            Content="" 
+            HorizontalAlignment="Left" 
+            Margin="55,66,0,0" 
+            VerticalAlignment="Top" 
+            FontFamily="Segoe UI Light" 
+            FontSize="72" 
+            Foreground="White"
+        />
+        <Label Content="Upcoming this week" HorizontalAlignment="Left" Margin="58,192,0,0" VerticalAlignment="Top" FontFamily="Segoe UI Light" Foreground="White" FontSize="36"/>
+        <Label Content="Today's roster" HorizontalAlignment="Left" Margin="737,192,0,0" VerticalAlignment="Top" FontFamily="Segoe UI Light" Foreground="White" FontSize="36"/>
+        <Button Content="Log out" HorizontalAlignment="Left" Margin="10,684,0,0" VerticalAlignment="Top" Width="105" Height="38" Background="Transparent" FontSize="16" FontFamily="Segoe UI" Foreground="White" Click="btnLogOut_Click"/>
+        <Label Content="" HorizontalAlignment="Left" Margin="58,276,0,0" VerticalAlignment="Top" FontFamily="Segoe UI Light" FontSize="24" Foreground="White" x:Name="appointment1"/>
+        <Label Content="" HorizontalAlignment="Left" Margin="58,316,0,0" VerticalAlignment="Top" FontFamily="Segoe UI Light" FontSize="20" Foreground="White" x:Name="appointmentDetails1"/>
+        <Label Content="" HorizontalAlignment="Left" Margin="58,383,0,0" VerticalAlignment="Top" FontFamily="Segoe UI Light" FontSize="24" Foreground="White" x:Name="appointment2"/>
+        <Label Content="" HorizontalAlignment="Left" Margin="58,427,0,0" VerticalAlignment="Top" FontFamily="Segoe UI Light" FontSize="20" Foreground="White" x:Name="appointmentDetails2"/>
+        <Label Content="" HorizontalAlignment="Left" Margin="58,492,0,0" VerticalAlignment="Top" FontFamily="Segoe UI Light" FontSize="24" Foreground="White" x:Name="appointment3"/>
+        <Label Content="" HorizontalAlignment="Left" Margin="58,539,0,0" VerticalAlignment="Top" FontFamily="Segoe UI Light" FontSize="20" Foreground="White" x:Name="appointmentDetails3"/>
+        <Label Content="" HorizontalAlignment="Left" Margin="739,383,0,0" VerticalAlignment="Top" FontFamily="Segoe UI Light" FontSize="24" Foreground="White" x:Name="childName2"/>
+        <Label Content="" HorizontalAlignment="Left" Margin="739,276,0,0" VerticalAlignment="Top" FontFamily="Segoe UI Light" FontSize="24" Foreground="White" x:Name="childName1"/>
+        <Label Content="" HorizontalAlignment="Left" Margin="739,316,0,0" VerticalAlignment="Top" FontFamily="Segoe UI Light" FontSize="20" Foreground="White" x:Name="activity1"/>
+        <Label Content="" HorizontalAlignment="Left" Margin="739,427,0,0" VerticalAlignment="Top" FontFamily="Segoe UI Light" FontSize="20" Foreground="White" x:Name="activity2"/>
+        <Label Content="" HorizontalAlignment="Left" Margin="739,492,0,0" VerticalAlignment="Top" FontFamily="Segoe UI Light" FontSize="24" Foreground="White" x:Name="childName3"/>
+        <Label Content="" HorizontalAlignment="Left" Margin="739,539,0,0" VerticalAlignment="Top" FontFamily="Segoe UI Light" FontSize="20" Foreground="White" x:Name="activity3"/>
+        <Button x:Name="btnAddNewEvent" Content="Add new" HorizontalAlignment="Left" Margin="58,577,0,0" VerticalAlignment="Top" Width="71" Height="29" Background="Transparent" FontSize="14" FontFamily="Segoe UI" Foreground="White" Click="btnAddNewEvent_Click"/>
+        <Button x:Name="btnViewAllEvents" Content="View all" HorizontalAlignment="Left" Margin="132,577,0,0" VerticalAlignment="Top" Width="71" Height="29" Background="Transparent" FontSize="14" FontFamily="Segoe UI" Foreground="White" Click="btnViewAllEvents_Click"/>
+        <Button x:Name="btnEditRoster" Content="Edit" HorizontalAlignment="Left" Margin="739,577,0,0" VerticalAlignment="Top" Width="71" Height="29" Background="Transparent" FontSize="14" FontFamily="Segoe UI" Foreground="White" Click="btnEditRoster_Click"/>
+        <Button x:Name="btnViewAllRoster" Content="View all" HorizontalAlignment="Left" Margin="813,577,0,0" VerticalAlignment="Top" Width="71" Height="29" Background="Transparent" FontSize="14" FontFamily="Segoe UI" Foreground="White" Click="btnViewAllRoster_Click"/>
+        <Button x:Name="btnEditEvent1" Content="Edit" HorizontalAlignment="Left" Margin="450,303,0,0" VerticalAlignment="Top" Width="70" Height="29" Background="Transparent" FontSize="14" FontFamily="Segoe UI" Foreground="White" Click="btnEditEvent1_Click"/>
+        <Button x:Name="btnEditEvent2" Content="Edit" HorizontalAlignment="Left" Margin="450,413,0,0" VerticalAlignment="Top" Width="70" Height="29" Background="Transparent" FontSize="14" FontFamily="Segoe UI" Foreground="White" Click="btnEditEvent2_Click"/>
+        <Button x:Name="btnEditEvent3" Content="Edit" HorizontalAlignment="Left" Margin="450,523,0,0" VerticalAlignment="Top" Width="70" Height="29" Background="Transparent" FontSize="14" FontFamily="Segoe UI" Foreground="White" Click="btnEditEvent3_Click"/>
+    </Grid>
+</Page>
